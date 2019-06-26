@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "logicAppName": {
+      "value": "AADAuditLogicApp"
+    },
+    "eventhubs_1_connectionString": {
+      "value": "Endpoint=sb://nimccolleh1.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=aa7qwTqnsSbYMpEQH7bKnTI2A69qHB6Sw0bnqFW+qM8="
+    }
+  }
+}
